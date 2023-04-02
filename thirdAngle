@@ -1,0 +1,11 @@
+jshell> System.out.println("find third angle")
+find third angle
+
+jshell> int thirdAngle(int a, int b)
+   ...> { return 180-a-b;}
+|  created method thirdAngle(int,int)
+
+jshell> thirdAngle(45,45)
+$3 ==> 90
+
+jshell>
