@@ -1,0 +1,15 @@
+C:\Users\jaykh>jshell
+|  Welcome to JShell -- Version 19.0.2
+|  For an introduction type: /help intro
+
+jshell> void helloTwice()
+   ...> { System.out.println("Hello");
+   ...>     System.out.println("hello");
+   ...> }
+|  created method helloTwice()
+
+jshell> helloTwice();
+Hello
+hello
+
+jshell>
