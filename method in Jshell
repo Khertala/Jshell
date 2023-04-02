@@ -12,4 +12,6 @@ jshell> helloTwice();
 Hello
 hello
 
-jshell>
+jshell> /method
+|    void helloTwice()
+
