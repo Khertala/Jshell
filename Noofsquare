@@ -1,0 +1,14 @@
+jshell> void printNoofSq(int n)
+   ...> { for(int i=1;i<=n;i++)
+   ...>     { System.out.println(i*i);}
+   ...> }
+|  created method printNoofSq(int)
+
+jshell> printNoofSq(5)
+1
+4
+9
+16
+25
+
+jshell>
