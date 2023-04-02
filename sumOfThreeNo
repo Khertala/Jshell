@@ -1,0 +1,12 @@
+jshell> int sumofthree(int a, int b, int c)
+   ...> { System.out.println(a+b+c);
+   ...>   return a+b+c; }
+|  created method sumofthree(int,int,int)
+
+jshell> sumofthree(1,2,4)
+7
+$3 ==> 7
+
+jshell> sumofthree(1,2,4)
+7
+$4 ==> 7
