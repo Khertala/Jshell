@@ -1,0 +1,16 @@
+jshell> void printNumber(int n)
+   ...> { for(int i=1;i<=n;i++)
+   ...>     {System.out.println(i);
+   ...>     }
+   ...> }
+|  created method printNumber(int)
+
+jshell> printNumber(6)
+1
+2
+3
+4
+5
+6
+
+jshell>
