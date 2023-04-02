@@ -15,3 +15,32 @@ hello
 jshell> /method
 |    void helloTwice()
 
+jshell> /save method.txt
+
+jshell> /edit helloTwice
+
+jshell> /list helloTwice
+
+   1 : void helloTwice()
+       { System.out.println("Hello");
+           System.out.println("hello");
+       }
+
+jshell> void sayHello(int no)
+   ...> { for(int i=0;i<no;i++)                                                                                            ...>     {System.out.println("Hello");
+   ...>     }
+   ...> }
+|  created method sayHello(int)
+
+jshell> sayHello(5)
+Hello
+Hello
+Hello
+Hello
+Hello
+
+jshell> sayHello(2)
+Hello
+Hello
+
+jshell>
